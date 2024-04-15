@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "python.analysis.autoFormatStrings": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "files.associations": {
+        "**/templates/**/*.html": "django-html",
+        "*.tpl": "django-html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "[django-html]": {
+        "editor.defaultFormatter": "junstyle.vscode-django-support"
+    },
+    
+}

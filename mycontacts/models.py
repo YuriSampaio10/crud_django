@@ -4,7 +4,9 @@ from django.db import models
 
 
 class mycontacts(models.Model):
-    title = models.CharField(max_length=100, null=False, blank=False)
+    title = models.CharField(
+        max_length=100, null=False, blank=False
+    )  # blank = espaço em branco
     created_at = models.DateTimeField(auto_now_add=True, null=False, blank=False)
     deadline = models.DateTimeField(null=False, blank=False)
     finished_at = models.DateTimeField(null=True)
